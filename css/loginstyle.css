@@ -9,6 +9,7 @@ body {
     padding: 30px;
     max-width: 300px;
     margin: 0 auto;
+    border-radius: 12px;
 }
 
 h2 {
@@ -48,4 +49,5 @@ p {
 
 a {
     color: #4CAF50;
+
 }
