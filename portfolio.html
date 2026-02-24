@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/stylesport.css">
+  </head>
+
+  <body>
+    <div class="main-container">
+
+      <!-- HEADER SECTION -->
+      <header class="header-section">
+        <div class="row align-items-start">
+
+          <div class="col-auto">
+            <img src="img/selfpic.jpg" alt="My profile pic" class="profile-img" />
+          </div>
+
+          <div class="col">
+            <div class="name-title">
+              <h1>Raphael  <span class="pronoun">He/Him</span></h1>
+            </div>
+            <div class="year-level">Second Year Computer Science Student</div>
+            <div class="location"><i class="fa-solid fa-location-dot"></i> Davao City,Philippines</div>
+            <div class="social-links">
+              <a class="social-btn" href="#">
+                <i class="fa-solid fa-envelope"></i> raphaelomarespina@gmail.com
+              </a>
+              <a class="social-btn" href="https://discord.com/users/1166834154357391503" target="_blank">
+                <i class="fa-brands fa-discord"></i> Discord
+              </a>
+              <a class="social-btn" href="https://github.com/Leigie1" target="_blank">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="col-auto d-flex align-items-center gap-2">
+            <img src="img/umlogo.png" alt="University Logo" class="university-logo" />
+            <span class="university-name">University of Mindanao</span>
+          </div>
+
+        </div>
+      </header>
+
+      <!-- MAIN CONTENT AREA -->
+      <div class="row gx-3">
+
+        <!-- LEFT COLUMN -->
+        <div class="col-lg-8">
+
+          <!-- About Me Section -->
+          <section class="content-section">
+            <h2 class="section-title"><i class="fa-solid fa-user"></i>About Me</h2>
+            <p class="about-me-text">
+              Hi! I'm Raphael, a second-year Computer Science student with an
+              interest in software development. I am currently learning web development with HTML, 
+              CSS, and PHP.
+            </p>
+            <p class="about-me-text">
+              My goal is to create applications that can be ultilized by many people
+            </p>
+          </section>
+
+          <!-- Projects Section -->
+          <section class="content-section">
+            <h2 class="section-title"><i class="fa-solid fa-folder"></i>Projects</h2>
+
+            <div class="project-card">
+              <div class="project-title">MyExercisePal</div>
+              <p class="project-description">
+                My Exercise Pal is a python application that tracks your workout.
+                It also encourages you to continue by implementing features that 
+                boosts engagement such as goal setting and gamified achievement
+                system
+              </p>
+              <div class="mt-2">
+                <span class="tech-badge">Tkinter</span>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">MySQL</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-title">Power Matrix</div>
+              <p class="project-description">
+                Power Matrix is a gym management system with database functionality.
+                This project aimed to help a gym owner manage the gym from memberships 
+                to inventory.
+              <div class="mt-2">
+                <span class="tech-badge">HTML/CSS</span>
+                <span class="tech-badge">PHP</span>
+                <span class="tech-badge">MySQL</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-title">Travel Agency System</div>
+              <p class="project-description">
+                Event Management System is a web-based application that supports
+                event creation, participant registration, schedule management,
+                and data storage, enabling efficient handling of event workflows
+                and structured event information management.
+              </p>
+              <div class="mt-2">
+                <span class="tech-badge">HTML/CSS</span>
+                <span class="tech-badge">PHP</span>
+                <span class="tech-badge">MySQL</span>
+              </div>
+            </div>
+
+          </section>
+
+          <!-- Hobbies Section -->
+          <section class="content-section">
+            <h2 class="section-title"><i class="fa-solid fa-gamepad"></i>Hobbies</h2>
+
+            <div class="hobby-item">
+              <div class="hobby-title">Indoors</div>
+              <p class="hobb-text">
+                I like to read manga, manhwa, manhua, and lightnovels during my
+                freetime. I also love to watch movies and play videogames.
+              </p>
+            </div>
+
+            <div class="hobby-item">
+              <div class="hobby-title">Outdoors</div>
+              <p class="hobb-text">
+                I like to go out and explore and go on little adventures,
+                whether to the mountains, rivers, or to the sea to relax and
+                unwind.
+              </p>
+            </div>
+
+            <div class="hobby-item">
+              <div class="hobby-title">Physical Fitness</div>
+              <p class="hobb-text">
+                I like to workout and I go to the gym five times a week and go
+                on a run every rest day.
+              </p>
+            </div>
+
+          </section>
+
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="col-lg-4">
+
+          <!-- Tech Stack Section -->
+          <section class="content-section">
+            <h2 class="section-title"><i class="fa-solid fa-layer-group"></i>Tech Stack</h2>
+            <div class="tech-category">Frontend</div>
+            <div>
+              <span class="tech-badge"><i class="fa-brands fa-html5"></i> HTML</span>
+              <span class="tech-badge"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+            </div>
+            <div class="tech-category">Backend</div>
+            <div>
+              <span class="tech-badge"><i class="fa-brands fa-java"></i> Java</span>
+              <span class="tech-badge"><i class="fa-brands fa-python"></i> Python</span>
+              <span class="tech-badge"><i class="fa-brands fa-php"></i> PHP</span>
+              <span class="tech-badge"><i class="fa-brands fa-js"></i> JS</span>              
+              <span class="tech-badge"><i class="fa-solid fa-database"></i> MySQL</span>
+            </div>
+            <div class="tech-category">Tools</div>
+            <div>
+              <span class="tech-badge"><i class="fa-brands fa-git-alt"></i> Git</span>
+              <span class="tech-badge"><i class="fa-brands fa-github"></i> GitHub</span>
+              <span class="tech-badge"><i class="fa-solid fa-triangle"></i> Vercel</span>
+              <span class="tech-badge"><i class="fa-brands fa-figma"></i> Figma</span>
+            </div>
+          </section>
+
+          <!-- Certifications Section -->
+          <section class="content-section">
+            <h2 class="section-title"><i class="fa-solid fa-award"></i>Certifications</h2>
+
+            <div class="cert-item">
+              <div class="cert-name">
+                IT Specialist - Java
+              </div>
+              <div class="cert-issuer">Certiport</div>
+              <div class="cert-date">2025</div>
+            </div>
+
+            <div class="cert-item">
+              <div class="cert-name">
+                Intro to Python
+              </div>
+              <div class="cert-issuer">Solo Learn</div>
+              <div class="cert-date">2026</div>
+            </div>
+
+            <div class="cert-item">
+              <div class="cert-name">
+                Python Developer
+              </div>
+              <div class="cert-issuer">Sololearn</div>
+              <div class="cert-date">2026</div>
+            </div>
+
+          </section>
+
+          <!-- Currently Learning Section -->
+          <section class="content-section">
+            <h2 class="section-title"><i class="fa-solid fa-lightbulb"></i>Currently Learning</h2>
+
+            <div class="learning-item">
+              <div class="learning-name">System Design</div>
+              <div class="learning-description">
+                Learning how to design scalable, efficient, and well-structured
+                software systems by breaking down requirements, components, and
+                data flow.
+              </div>
+            </div>
+
+            <div class="learning-item">
+              <div class="learning-name">Intermediate SQL</div>
+              <div class="learning-description">
+                Expanding knowledge of complex queries, joins, subqueries,
+                indexing, and database optimization techniques.
+              </div>
+            </div>
+
+            <div class="learning-item">
+              <div class="learning-name">API's</div>
+              <div class="learning-description">
+                Learning how to build and consume APIs to enable communication
+                between systems using structured requests and responses.
+              </div>
+            </div>
+
+          </section>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
